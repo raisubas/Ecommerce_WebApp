@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodingDojoWeather</title>
+    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <div class="logo"><img src="images/leaf.png" alt="Leaf Image" class="leaf__image"> EasyBay</div>
+            <div class="search-box">
+                <input class="search-txt" type="text" name="search" placeholder="Search for anything">
+        
+            </div>
+            <div class="rest">
+                    <p class="signin">Sign In</p>
+                    <img src="images/cart-dark.png" alt="cart__image" class="cart__image" onclick="alert('Your cart is empty')">       
+            </div>
+
+    
+
+        </div>
+        
+        <div id="navbar">    
+            <p class="tab">Aeonium</p>
+            <p class="tab">Andomischus</p>
+            <p class="tab">Agave</p>
+            <p class="tab">Aloe</p>
+            <p class="tab">Anacamseros</p>
+            <p class="tab">Aristaloe</p>
+            <p class="tab">More..</p>
+        </div>
+  
+        <h2>Your Source for Serious Succulent Specialties</h2>
+        <div id="mainbody">
+            <div class="top-left">
+                <div class="topdesc">
+                    Doscover succulent varieties one pot or rack at a time!
+                </div>
+                <div class="botdesc">
+                    <div class="text">DisCover<img src="images/arrow-light.png" alt="arrowImage" class="arrow__image"></div>
+                </div>
+            </div>
+            <div class="top-middle">
+                <img src="images/succulents-1.jpg" alt="succImage" class="succ__image" onmouseover="changeImage(this)" onmouseout="changeBack(this)">
+            </div>
+            <div class="top-right">
+                <img src="images/aloe-m.jpg" alt="alImage" class="al__image">
+            </div>
+            <div class="right-middle">
+                <div class="text"></div>
+                <img src="images/arrow-light.png" alt="arrowImage" class="arrow__image">
+            </div>
+            <div id="bottom">
+                <div class="align">
+                    <img src="images/aeonium-s.jpg" alt="aerImage" class="scc__image">
+                    <p1 class="scc_text">Aeonium</p1>
+                </div>
+                <div class="align">
+                    <img src="images/echeveria-s.jpg" alt="acImage" class="scc__image">
+                    <p1 class="scc_text">Echeveria</p1>
+                </div>
+                <div class="align">
+                    <img src="images/cactus-s.jpg" alt="caImage" class="scc__image">
+                    <p1 class="scc_text">Cactus</p1>
+                </div>
+                <div class="align">
+                    <img src="images/sedum-s.jpg" alt="seImage" class="scc__image">
+                    <p1 class="scc_text">Sedum</p1>
+                </div>
+                <div class="align">
+                    <img src="images/sempervivum-s.jpg" alt="seImage" class="scc__image">
+                    <p1 class="scc_text">Sempervivum</p1>
+                </div>
+                <div class="align">
+                    <img src="images/aloe-s.jpg" alt="aerImage" class="scc__image">
+                    <p1 class="scc_text">Aloe</p1>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+    <div id="cookiebar">
+        <img src="images/alert-dark.png" alt="cookieimage">
+        <p> This site makes use of third-party cookies, by clicking "I accept" you agree to the terms outlined in our <a href="">Cookie Policy</a></p>
+        <button onclick="removeCookie()">I Accept</button>
+
+    </div>
